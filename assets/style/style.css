@@ -46,8 +46,6 @@
 }
 
 
-
-
 #section-historia {
   display: flex;
   flex-wrap: wrap;         
@@ -71,4 +69,16 @@
 
 #section-historia img {
   border-radius: 15px;
+}
+
+
+/* CSS PARA SABORES.HTML *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+
+#section-carrusel-cremas{
+    display: flex;
+}
+
+.card-cremas{
+    min-width: 200px;
 }
