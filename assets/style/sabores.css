@@ -58,3 +58,20 @@
     flex-shrink: 0;
 }
 
+
+#section-carrusel-frutas {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+}
+
+.card-frutas{
+     min-width: 200px;
+    background: #c461d1;
+    padding: 20px;
+    text-align: center;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
