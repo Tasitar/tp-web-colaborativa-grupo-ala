@@ -86,3 +86,7 @@ img{
 #formulario-contacto button{
     width: 5%;
 }
+
+body{
+    background-image: url(../img/background.webp);
+}
