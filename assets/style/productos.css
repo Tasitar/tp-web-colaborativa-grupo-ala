@@ -40,6 +40,16 @@
     margin: 0;
     padding: 1rem 0;
 }
+.conteiner {
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
 
    
     
