@@ -50,6 +50,22 @@
     justify-content: flex-start;
     
 }
+ .producto {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 8px;
+        flex: 1 1 250px;
+        max-width: 350px;
+}
+    img  { 
+        
+        width: 40%;
+        height: 180px;
+        object-fit:cover;
+        box-sizing: border-box;
+        
+}
 
    
     
