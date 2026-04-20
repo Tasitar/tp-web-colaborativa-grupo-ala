@@ -38,5 +38,51 @@
     text-align: center;
     background-color: #43afae;
     margin: 0;
-    padding: 1rem 0;
+    
+}
+
+h2{
+    background-color: #3e9997;
+    text-align: center;
+}
+
+main ul{
+    width: 100%;
+    margin: 20px auto;
+    min-height: 78vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+   
+    box-shadow: 0 0 100px none;
+    border-radius: 10px;
+}
+
+img{
+    width: 50%;
+    margin: 10px auto;
+}
+
+#formulario-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 400x;
+    margin: auto;
+}
+
+#formulario-contacto label{
+    width: 8%;
+}
+
+#formulario-contacto input, #formulario-contacto select{
+    width: 20%;
+}
+
+#formulario-contacto textarea{
+    width: 20%;
+}
+
+#formulario-contacto button{
+    width: 5%;
 }
